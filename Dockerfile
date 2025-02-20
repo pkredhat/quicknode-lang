@@ -1,6 +1,9 @@
 # Use the official Node.js image from the Docker Hub
 FROM node:14
 
+# Set environment variables
+ENV COUNTRY_CODE=US
+
 # Create and change to the app directory
 WORKDIR /usr/src/app
 
