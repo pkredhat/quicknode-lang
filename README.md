@@ -1,14 +1,15 @@
-<link rel="stylesheet" href="style.css">
-
 ### Curved Code Block Example
 
-<div class="code-block">
-<pre><code>
+<div style="background-color: #f4f4f4; border-radius: 10px; padding: 10px; overflow: auto;">
+<pre style="border-radius: 10px; padding: 10px;">
+<code>
 function helloWorld() {
     console.log("Hello, world!");
 }
-</code></pre>
+</code>
+</pre>
 </div>
+
 
 # Node JS Language App
 
