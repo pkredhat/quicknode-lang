@@ -2,6 +2,8 @@ const fs = require('fs');
 const http = require('http');
 require('dotenv').config();
 
+const COUNTRY_CODE ='ES'; // Change this to the variable you want to read
+
 // Function to get translation based on country code parameter
 function getTranslation(countryCode, callback) {
     
