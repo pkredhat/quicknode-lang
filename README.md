@@ -2,36 +2,39 @@
 
 This is a very quick/simple Node.JS app that returns  Hello World  in the country/language set in your environment variable. The country language code is a two letter code (See Language codes below). The purpose of this application is used for quick testing deployments of Node.JS, you can use this to test environment variables working, deployments into a container. A Dockerfile has been provided so you can test in an image too. 
 
+## Building in Docker
+```
+docker build -t <your image name> .
+```
+
 
 ## Setting Up Environment Variables
 
-Use the 
+> Set the <span style="color: red;">countryCode</span> variable to change the language
 
-### Linux
+##### Linux
 ```
-export VARNAME="my value"  
+export countryCode="en"  
 echo $PATH to verify
-```
+```  
 
-### MAC
+##### Mac
 ```
-export VARNAME="my value"
+export countryCode="es"
 Or edit the .bash_profile
 echo $PATH to verify
 ```
 
-### Windows
+##### Windows
 ```
 1. Open the Control Panel
 2. Select System
 3. Select System Properties / Advanced
 4. Select Environment Variables button on the bottom
+5. Add the countryCode variable here and choose your two letter language
 ```
 
-## Building in Docker
-```
-docker build -t <your image name> .
-```
+
 
 ## Language Codes accepted 
 
