@@ -1,14 +1,3 @@
-### Curved Code Block Example
-
-<div style="background-color: #f4f4f4; border-radius: 10px; padding: 10px; overflow: auto;">
-<pre><code style="display: block; border-radius: 10px; padding: 10px; background-color: #f4f4f4;">
-function helloWorld() {
-    console.log("Hello, world!");
-}
-</code></pre>
-</div>
-
-
 # Node JS Language App
 
 This is a very quick/simple Node.JS app that returns  Hello World  in the country/language set in your environment variable. The country language code is a two letter code (See Language codes below). The purpose of this application is used for quick testing deployments of Node.JS, you can use this to test environment variables working, deployments into a container. A Dockerfile has been provided so you can test in an image too. 
@@ -37,6 +26,11 @@ echo $PATH to verify
 2. Select System
 3. Select System Properties / Advanced
 4. Select Environment Variables button on the bottom
+```
+
+## Building in Docker
+```
+docker build -t <your image name> .
 ```
 
 ## Language Codes accepted 
