@@ -10,7 +10,7 @@ docker build -t <your image name> .
 
 ## Setting Up Environment Variables
 
-> Set the <span style="color: red;">countryCode</span> variable to change the language
+> Set the **countryCode** variable to change the language
 
 ##### Linux
 ```
