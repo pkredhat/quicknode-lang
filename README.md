@@ -1,13 +1,11 @@
 ### Curved Code Block Example
 
 <div style="background-color: #f4f4f4; border-radius: 10px; padding: 10px; overflow: auto;">
-<pre style="border-radius: 10px; padding: 10px;">
-<code>
+<pre><code style="display: block; border-radius: 10px; padding: 10px; background-color: #f4f4f4;">
 function helloWorld() {
     console.log("Hello, world!");
 }
-</code>
-</pre>
+</code></pre>
 </div>
 
 
