@@ -9,8 +9,7 @@
   "author": "Phillip Knezevich",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express.js": "^1.0.0",
+    "dotenv": "^16.4.7",    
     "nodemon": "^3.1.9"
   }
 }
