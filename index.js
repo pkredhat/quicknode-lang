@@ -24,7 +24,7 @@ function getTranslation(countryCode, callback) {
             return callback(null, translation);
         } catch (err) {
             return callback(err);
-        }
+        } 
     });
 }
 
